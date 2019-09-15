@@ -17,8 +17,7 @@ deploy:
   bucket_path: "docker-react2"  #will only be created once we deploy it.
   on:
     branch: master
-
-access_key_id:
-  secure: $AWS_ACCESS_KEY #get it from local environment
-secret_access_key:
-  secure: $AWS_SECRET_KEY  
+  access_key_id:
+    secure: $AWS_ACCESS_KEY #get it from local environment
+  secret_access_key:
+    secure: $AWS_SECRET_KEY  
